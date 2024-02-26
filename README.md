@@ -2,6 +2,10 @@
 
 Welcome to this exciting project where we create an AI research assistant right on your computer using Ollama! This powerful tool is designed to streamline your research process, from searching for articles to obtaining specific insights. The best part? It costs $0 to run!
 
+
+https://github.com/SiddharthUchil/AI-Research-Assistant-Using-Ollama/assets/36127139/988404a9-7b60-4661-b678-458433df4a8c
+
+
 ## Overview
 
 This project involves several steps:
@@ -9,7 +13,7 @@ This project involves several steps:
 1. **Searching for Research Articles**: We use the `arXiv` Python package to search for research articles.
 2. **Converting Articles into Embeddings**: The articles are then converted into embeddings.
 3. **Storing Embeddings in a Database**: The embeddings are stored in a Quadrant database for easy access and retrieval.
-4. **Using a Large Language Model with Ollama**: We use a large language model  to clarify any doubts directly from the research articles.
+4. **Using a Large Language Model with Ollama**: We use a large language model `llama2` to clarify any doubts directly from the research articles.
 5. **Building a User-Friendly Interface using Gradio**: Finally, we build a user-friendly interface for this entire process.
 
 ## Getting Started
@@ -18,8 +22,10 @@ This project involves several steps:
 
 ```bash
 ollama pull llama2:7b-chat
+```
 
 2. Install the necessary dependencies:
 
+```bash
 pip install arxiv langchain_community langchain gpt4all qdrant-client gradio
-
+```
